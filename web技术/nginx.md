@@ -384,5 +384,5 @@ http {
 - ~* 开头表示不区分大小写的正则匹配
 - / 通用匹配, 如果没有其它匹配,任何请求都会匹配到
 ## 参考
-:link:  [Nginx 简易教程](https://www.cnblogs.com/jingmoxukong/p/5945200.html)
+:link:  [Nginx 简易教程](https://www.cnblogs.com/jingmoxukong/p/5945200.html)  
 :link:  [nginx配置location总结及rewrite规则写法](http://seanlook.com/2015/05/17/nginx-location-rewrite/)
