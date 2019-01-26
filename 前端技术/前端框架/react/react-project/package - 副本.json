@@ -9,13 +9,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    // "build": "react-scripts build",
+    "build": "tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "flow": "flow",
-    "flow-init": "flow init",
-    "tsc": "tsc",
-    "tsc-init": "tsc --init"
+    "flow": "flow"
   },
   "eslintConfig": {
     "extends": "react-app"

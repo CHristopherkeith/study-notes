@@ -1,6 +1,14 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
+/*Flow*/
+/*function concat(a: string, b: string) {
+  return a + b;
+}
+console.log(concat('1', '2'), '【23333】')*/
+/*Flow*/
 
 function Square(props) {
   return (
