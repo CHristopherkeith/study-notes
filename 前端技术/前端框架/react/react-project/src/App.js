@@ -70,7 +70,8 @@ const About = () => (
 // );
 
 const Topics = function({ match, location }){
-  console.log(location)
+  console.log(match, '【match】')
+  console.log(location, '【location】')
   return <div>
     <h2>Topics</h2>
     <div>{location.pathname}</div>
@@ -95,10 +96,18 @@ const Topics = function({ match, location }){
   </div>
 };
 
-const Topic = ({ match }) => (
-  <div>
+const Topic = ({ match }) => {
+  console.log(match, '【match11】')
+  return (<div>
     <h3>{match.params.topicId}</h3>
-  </div>
-);
+  </div>)
+};
+
+// const Topic = function({ match }){
+//   console.log(match, '【match11】')
+//   return <div>
+//     <h3>{match.params.topicId}</h3>
+//   </div>
+// };
 
 export default BasicExample;
