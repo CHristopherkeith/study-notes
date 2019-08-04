@@ -9,8 +9,7 @@
 [宇宙最强vscode教程（基础篇）](https://segmentfault.com/a/1190000017949680)  
 ### <div id="plugin">插件</div>
 1. 前端工程运行  
-使用terminal  
-``` ctrl+` ```
+使用terminal  ``` ctrl+` ```
 2. git管理  
 vscode自带git管理 + gitlens
 ### <div id="question">问题</div>
