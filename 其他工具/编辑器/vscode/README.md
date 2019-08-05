@@ -17,3 +17,4 @@ vscode自带git管理 + gitlens
 file - add folder to workspace
 2. 工作空间概念
 3. debug 启动慢
+4. 调试功能
